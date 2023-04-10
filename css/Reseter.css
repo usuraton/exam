@@ -77,7 +77,7 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
-  padding: 1px 6px;
+  /* padding: 1px 6px; */
 }
 
 input {
