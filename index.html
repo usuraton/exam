@@ -1,47 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Полякова Любовь Максимовна 211-324 10.04.2023</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Rubik:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/Reseter.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<header>
-<div class="divhead">
-    <img class="logo" src="/img/Logo.svg" alt="">
-<div class="desctopmenu">
-    <a href="">Platform</a>
-    <a href="">Midas Coin</a>
-    <a href="">YAPs</a>
-</div>
-<button><img class="menu" src="/img/Menu.svg " alt=""></button>
-</div>
-</header>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/Reseter.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <header>
+    <div class="divhead container">
+      <img class="logo" src="/img/Logo.svg" alt="" />
+      <div class="desctopmenu">
+        <a href="">Platform</a>
+        <a href="">Midas Coin</a>
+        <a href="">YAPs</a>
+      </div>
+      <button class="button">
+        <img class="menu" src="/img/Menu.svg " alt="" />
+      </button>
+    </div>
+  </header>
 
-<body>
+  <body>
     <section class="task1">
+      <div class="container">
         <h1>Midas token utility</h1>
+
         <div class="sec1">
-            <img src="/img/kalendar.svg" alt="" width="1000px">
-            <div>
+          <img src="/img/kalendar.svg" alt="" />
+          <div>
             <h2>Payout Split</h2>
-            <p>10% of rewards earned by Midas platform community is used to <span class="difcolor"> buyback MIDAS token</span> from the open market</p>
-            </div>
+            <p class="pharagraph">
+              10% of rewards earned by Midas platform community is used to
+              <span class="difcolor"> buyback MIDAS token</span> from the
+              open market
+            </p>
+          </div>
         </div>
+
         <div class="sec2">
-            <img class="storm" src="/img/Storm.svg" alt="">
-            <div>
+          <img class="storm" src="/img/Storm.svg" alt="" />
+          <div>
             <h2>APY Boost</h2>
-            <p>10% of rewards earned by Midas platform community is used to <span class="difcolor">buyback MIDAS token </span> the open market</p>
-            </div>
+            <p class="pharagraph">
+              10% of rewards earned by Midas platform community is used to <span
+                class="difcolor"
+                >buyback MIDAS token
+              </span>
+              the open market
+            </p>
+          </div>
         </div>
-        <a  class="learnMore" href="">Learn more-></a>
+      </div>
+      <a class="learnMore" href="">Learn more-></a>
     </section>
-    
-</body>
+
+    <section>
+      <form action="//httpbin.org/post" mathod="post">
+        <legend>Покупки</legend>
+        <legend>Наименование товара</legend>
+        <label
+          ><input
+            class="none"
+            type="text"
+            name="name"
+            placeholder="Мука"
+            required
+        /></label>
+
+        <legend>Количество</legend>
+        <label
+          ><input class="none" type="number" name="count" required
+        /></label>
+
+        <legend>Доставка</legend>
+        <label
+          ><input
+            class="none"
+            type="radio"
+            name="delivery"
+            value="1"
+          />Курьер</label
+        >
+        <label
+          ><input
+            class="none"
+            type="radio"
+            name="delivery"
+            value="2"
+          />Самовывоз</label
+        >
+        <div class="senddiv">
+          <button type="submit">
+            <img src="/img/sumbit.svg" alt="" />
+            <span>Отправить</span>
+          </button>
+        </div>
+      </form>
+    </section>
+  </body>
 </html>
